@@ -1,0 +1,47 @@
+.Heading-Fitness {
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+.Heading-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+a {
+  text-decoration: none;
+}
+
+.Fitness-button {
+  background-color: #fe9e0d;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-weight: 600;
+  color: white;
+  transition: 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4rem;
+  margin-top: 1rem;
+}
+.Fitness-button-button svg {
+  margin-left: 0.75rem;
+  font-size: 1.5rem;
+}
+.Fitness-button:hover {
+  background-color: #e48f0f;
+}
+.after-log {
+  display: flex;
+  gap: 2rem;
+}
+
+.fitnessTableHome {
+  padding: 2rem;
+  /* padding-top: 1rem; */
+}

@@ -1,0 +1,36 @@
+.slider {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}
+
+.btn-slider {
+    background-color: #a52005;
+  border-radius: 12px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px ;
+  text-align: center;
+  transition: 200ms;
+  width: 150px;
+  box-sizing: border-box;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btn-slider:not(:disabled):hover,
+.btn-slider:not(:disabled):focus {
+  outline: 0;
+  background:#721300 ;
+  box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+}
+
+.btn-slider:disabled {
+  filter: saturate(0.2) opacity(0.5);
+  -webkit-filter: saturate(0.2) opacity(0.5);
+  cursor: not-allowed;
+}

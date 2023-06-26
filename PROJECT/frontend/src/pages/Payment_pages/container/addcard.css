@@ -1,0 +1,22 @@
+
+.Ainput {
+    display: block;
+    margin: 10px auto;
+    padding: 8px 16px;
+    font-size: 16px;
+    color: #222;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+  }
+  .Aselect {
+    /* display: block; */
+    margin-right: 10px auto;
+    padding: 8px 16px;
+    font-size: 16px;
+    color: #222;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+  }
+  

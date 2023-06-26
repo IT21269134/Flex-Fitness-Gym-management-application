@@ -1,0 +1,209 @@
+/*styling of the black color border */
+.body-div-for-border {
+  border: 5px solid black;
+}
+
+.heading-analysis {
+  font-size: 40px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+/* report button styling */
+.report-btn {
+  border-radius: 10px;
+  position: relative;
+  background-color: #cc5801;
+  border: none;
+  font-size: 18px;
+  color: #ffffff;
+  padding: 10px;
+  width: 70px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.report-btn:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s;
+}
+
+.report-btn:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s;
+}
+
+.report-btn {
+  float: right;
+}
+
+/*pie chart */
+.this-needs-to-break-into-two-sections,
+.again-devide-into-two,
+.second-two {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.first-of-two {
+  height: 60%;
+  width: 60%;
+}
+
+/*pie description of values*/
+.under-pie-description-of-colors {
+  padding-left: 20px;
+}
+
+.box1 {
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: #ed7117;
+}
+
+.box2 {
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: #ec9706;
+}
+
+.box3 {
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: #e5c646;
+}
+
+/*pie discription txt*/
+.pie-d {
+  font-size: 17px;
+}
+
+/*tick div*/
+.div2 {
+  color: #7a3803;
+}
+
+.presentage-txt {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.progress {
+  width: 350px;
+  height: 8px;
+}
+
+.second-section h3,
+.first-section h3,
+.third-section h3,
+.fourth-section h3 {
+  padding-bottom: 20px;
+}
+
+.calorie-value {
+  padding-left: 70px;
+  font-size: 35px;
+  font-weight: 500;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.text-para-total,
+.presentage-txt,
+.progress-bar-div {
+  padding-left: 40px;
+}
+
+.text-para-total {
+  font-size: 18px;
+}
+
+.div2 {
+  padding-left: 30px;
+}
+
+.intake-h-txt {
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+th {
+  font-size: 20px;
+}
+
+td {
+  font-size: 18px;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/*background of three sections*/
+.third-section,
+.second-section,
+.first-section {
+  padding: 20px;
+  background-color: #e5c646;
+  border-radius: 25px;
+}
+
+.padding-sections {
+  padding-left: 20px;
+  padding-right: 30px;
+  padding-bottom: 15px;
+}
+
+/*total calorie background*/
+.fourth-section {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border-radius: 20px;
+  background-color: #ec9706;
+}
+
+/*download btn*/
+.download-btn-div {
+  padding-right: 80px;
+}
+
+.table-div-section {
+  padding-left: 20px;
+  padding-top: 40px;
+}
+
+.first-of-two,
+.second-of-two {
+  padding-left: 100px;
+}
+
+.div2 {
+  padding-left: 140px;
+}
+
+.presentage-txt {
+  text-align: justify;
+}

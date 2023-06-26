@@ -1,0 +1,9 @@
+.AppGlass {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  background: var(--glass);
+  border-radius: 2rem;
+  padding: 5%;
+  overflow: hidden;
+}

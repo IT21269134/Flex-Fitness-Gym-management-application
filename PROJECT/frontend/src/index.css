@@ -1,0 +1,145 @@
+#root {
+  font-family: "Quicksand", cursive;
+}
+
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+#category__ {
+  color: aliceblue;
+}
+
+#rehan {
+  margin-left: 180px;
+}
+#Card-h {
+  color: black;
+}
+#Card-b {
+  border: 1px solid black;
+}
+#paka {
+  font-size: x-large;
+}
+#tts {
+  margin: 20px;
+}
+#ttrss {
+  font-size: larger;
+}
+#ttrsss {
+  font-size: 20px;
+}
+.btn-div {
+  display: flex;
+  flex-direction: row;
+}
+#gg {
+  font-family: "Work Sans", sans-serif;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid transparent;
+  color: #dbdce0;
+  transition: border-bottom 0.4s;
+}
+#tttt {
+  padding: 20px;
+}
+#button-searchh {
+  margin-top: 11px;
+  margin-bottom: 20px;
+
+  padding-top: -30px;
+  padding-bottom: -30px;
+}
+#names {
+  font-size: x-large;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+#eee {
+  padding-top: 20px;
+  margin-right: 60px;
+  margin-left: 60px;
+}
+#btt {
+  margin-left: 20px;
+}
+#nav_img {
+  width: 250px;
+}
+#gggg2 {
+  background-color: darkblue;
+}
+#form-labell {
+  font-size: larger;
+  margin-bottom: 4px;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.contentt {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.contenttt {
+  margin-top: 400px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+#borderr {
+  border-radius: 25px;
+}
+.secondary-button {
+  font-size: 2px;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  margin: 8px 0;
+  text-align: center;
+}
+.green {
+  background-color: #4caf50;
+  color: #ffffff;
+}
+#pad {
+  font-size: xx-large;
+  padding: 15px;
+}
+#padd {
+  padding-bottom: 12px;
+}
+#edit {
+  width: 80%;
+}

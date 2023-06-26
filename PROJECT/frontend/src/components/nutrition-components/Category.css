@@ -1,0 +1,138 @@
+.cateogry-body {
+  padding: 20px;
+}
+
+.heading-txt {
+  text-align: center;
+  padding: 20px;
+}
+
+.this-needs-to-devide-into-two:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.first-one-for-read-table,
+.second-one-for-calorie-search-bar {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.Add-diary {
+  border-radius: 10px;
+  position: relative;
+  background-color: #cc5801;
+  border: none;
+  font-size: 18px;
+  color: #ffffff;
+  padding: 10px;
+  width: 120px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.Add-diary:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s;
+}
+
+.Add-diary:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s;
+}
+
+.add-diary-btn-div,
+.view-analysis-btn-div,
+.search-bar-div,.first-one-for-read-table {
+  padding: 20px;
+}
+
+.heading-calorie-search-txt {
+  text-align: center;
+}
+
+.search-bar-div {
+  padding-left: 200px;
+}
+
+.delete-heading-to-center {
+text-align: center;
+}
+
+.btn-edit {
+  margin-right: 10px;
+  background-color: white;
+border-radius: 12px;
+color: #cc5801;
+cursor: pointer;
+font-weight: bold;
+padding: 5px ;
+text-align: center;
+transition: 200ms;
+width: 40px;
+box-sizing: border-box;
+border: 0;
+font-size: 16px;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+}
+
+.btn-edit:not(:disabled):hover,
+.btn-edit:not(:disabled):focus {
+outline: 0;
+background:white ;
+box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+}
+
+.btn-edit:disabled {
+filter: saturate(0.2) opacity(0.5);
+-webkit-filter: saturate(0.2) opacity(0.5);
+cursor: not-allowed;
+}
+
+.btn-delete {
+  background-color: white;
+border-radius: 12px;
+color: #a52005;
+cursor: pointer;
+font-weight: bold;
+padding: 5px ;
+text-align: center;
+transition: 200ms;
+width: 40px;
+box-sizing: border-box;
+border: 0;
+font-size: 16px;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+}
+
+.btn-delete:not(:disabled):hover,
+.btn-delete:not(:disabled):focus {
+outline: 0;
+background:white ;
+box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+}
+
+.btn-delete:disabled {
+filter: saturate(0.2) opacity(0.5);
+-webkit-filter: saturate(0.2) opacity(0.5);
+cursor: not-allowed;
+}
