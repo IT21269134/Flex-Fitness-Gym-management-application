@@ -9,7 +9,11 @@ management.
 Built with MERN Stack and hosted on AWS for efficient gym management.
 =======
 # Project Name - “Flex Fitness” – Gym Management Application
-# Batch - Malabe – Batch 04                                                        
+# Batch - Malabe – Batch 04   
+
+<p align ="center"> 
+<img style="float: center"  alt="drawing" src="Flex fitness.png"  width="550px" height=450px">
+</p>
 ### Group Leader - IT21289316 - Harish.B (Harish3000)
 ### Member 2 - IT21269134 - K.G.I.H.C.Kumbukgolla. (IT21269134)
 ### Member 3 - IT21269516 - M.M. Nileesha Dilshan Mapa. (NileeshaDM)
