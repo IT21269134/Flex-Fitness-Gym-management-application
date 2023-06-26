@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 # Flex-Fitness-Gym-management-application
 IWT project in Y2S2 
 
@@ -28,5 +28,3 @@ AWS platform (Cloud Storage).
 
 
 
-
->>>>>>> Stashed changes
