@@ -1,6 +1,6 @@
 
 # Flex-Fitness-Gym-management-application
-IWT project in Y2S2 
+ITP project in Y2S2 
 
 Flex Fitness is a user-friendly web app that streamlines gym operations. It
 offers customer registration, trainer/doctor management,
